@@ -11,19 +11,20 @@ Toby Dussek
 * 4:30 end
 
 ### Monday
-- Welcome and intros
-- where to write code: modules (just a file)
+> Welcome and intros
+> where to write code: modules (just a file)
 - architecture, structure, and professional code best practice
 - maths operators and data types
 - print() and input()
 - indentation
-- strings
-- lists and tuples
+> strings
+> lists and tuples
 - identifiers
   - use letters, numbers and underscore, don't start with a digit
   - by convention we use snake_case, camelCase, or PascalCase
-- the 'in' operator for loops
-- boolean True and False
+- import relative folders
+> the 'in' operator for loops
+> boolean True and False
 - type and type conversion
 - the if statement for conditional logic
 - print formatting
