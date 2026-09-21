@@ -22,6 +22,10 @@ Toby Dussek
 > identifiers
   > use letters, numbers and underscore, don't start with a digit
   > by convention we use snake_case, camelCase, or PascalCase
+  - anything with two leading underscores is part of Python
+    - e.g. __main__
+  - anything with a single leading underscore is a convention
+    - e.g. _hidden, def _wibble()
 - import relative folders
 > the 'in' operator for loops
 > boolean True and False
@@ -58,6 +62,7 @@ Toby Dussek
 - any input or output is necessarily slow: I/O bound
 - global and local scope 
 - Objects and Classes (OOP)
+  - how to make parts of a class 'private' to that class
 - name mangling (__) and __slots__
 - properties, methods, __str__
 - review exercise

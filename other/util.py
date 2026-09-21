@@ -10,13 +10,13 @@ def validateNumeric(n):
 
 def askForNumber():
     '''This function will ask the user for a number and return it'''
-    value = '' # we start with an empty string
+    _value = '' # we start with an empty string
     while True:
         c = input("Please enter a number: ")
         # we can use exceptino handling to manage the input
         try:
-            value = int(float(c)) # we cast to float first to handle decimal input
-            return value # our function stops when we return something
+            _value = float(c) # we cast to float first to handle decimal input
+            return _value # our function stops when we return something
         except Exception as err:
             print(f"Invalid input: {err}")
 
