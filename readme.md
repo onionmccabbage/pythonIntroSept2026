@@ -19,9 +19,9 @@ Toby Dussek
 > indentation
 > strings
 > lists and tuples
-- identifiers
-  - use letters, numbers and underscore, don't start with a digit
-  - by convention we use snake_case, camelCase, or PascalCase
+> identifiers
+  > use letters, numbers and underscore, don't start with a digit
+  > by convention we use snake_case, camelCase, or PascalCase
 - import relative folders
 > the 'in' operator for loops
 > boolean True and False
@@ -29,7 +29,7 @@ Toby Dussek
 > the if statement for conditional logic
 > print formatting
 > validate input (remember - all input is string)
-- after lunch review exercise
+> after lunch review exercise
 > dictionaries (indexed iterable collections)
 - import libraries and modules
 - functions
