@@ -14,9 +14,9 @@ Toby Dussek
 > Welcome and intros
 > where to write code: modules (just a file)
 - architecture, structure, and professional code best practice
-- maths operators and data types
-- print() and input()
-- indentation
+> maths operators and data types
+> print() and input()
+> indentation
 > strings
 > lists and tuples
 - identifiers
@@ -25,10 +25,10 @@ Toby Dussek
 - import relative folders
 > the 'in' operator for loops
 > boolean True and False
-- type and type conversion
-- the if statement for conditional logic
-- print formatting
-- validate input (remember - all input is string)
+> type and type conversion
+> the if statement for conditional logic
+> print formatting
+> validate input (remember - all input is string)
 - after lunch review exercise
 - dictionaries (indexed iterable collections)
 - import libraries and modules
