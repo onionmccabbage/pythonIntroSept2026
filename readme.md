@@ -26,6 +26,7 @@ Toby Dussek
 > the 'in' operator for loops
 > boolean True and False
 > type and type conversion
+- validate user input 
 > the if statement for conditional logic
 > print formatting
 > validate input (remember - all input is string)
