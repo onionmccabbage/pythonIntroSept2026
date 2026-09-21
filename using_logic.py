@@ -13,7 +13,8 @@ else:
     print("unknown")
 
 # ask the user for a value
-temperature = int(input("Enter the temperature: "))
+# NB every input is ALWAYS a string value (i.e. it is text)
+temperature = int(float(input("Enter the temperature: ")))
 
 # we may need to control a/c
 if temperature > 30:
