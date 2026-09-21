@@ -30,7 +30,7 @@ Toby Dussek
 > print formatting
 > validate input (remember - all input is string)
 - after lunch review exercise
-- dictionaries (indexed iterable collections)
+> dictionaries (indexed iterable collections)
 - import libraries and modules
 - functions
 - packages (sinply a folder containing python files)
