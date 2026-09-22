@@ -8,7 +8,11 @@ l = [1,2,3,4,5,6,7]
 def printToFile(b):
     '''Send the text contained in b to a text file'''
     # we need a file access object
-    fout = open('my_file.txt', 'at') # 'at' means append text
+    # the file is created if it does not exist
+    fout = open('my_file.txt', 'at') # the 't' means text (default)
+    # 'at' means append text 
+    # 'wt' (over)write
+    # 'xt' means exclusive access (fails if file already exists)
     print( b, file=fout ) # NB this adds a default new line character
     fout.close() 
     # it is a really good idea to 
