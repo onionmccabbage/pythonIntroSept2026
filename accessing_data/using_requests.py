@@ -21,13 +21,22 @@ def getData(param=''):
     except Exception as err:
         return f'An error occurred {err}'
 
+def checkSysArgs():
+    '''Look for additional system arguments'''
+    p=''
+    if len(sys.argv) > 1:
+        p = sys.argv[1]
+    return p
+
+
 if __name__ == "__main__":
     # we may iterate over a series of values to retireve each in turn
     l = [12, 19, 2, 33]
     for _ in l:
         result = getData(_)
         print(result) # we could combine these lines print( getData() )
-    
+    # use any sys.argv values
+    print( getData( checkSysArgs() ) ) # could be separate lines
 
     # we may see just part of the data
     # print( result[0] ) # we only want member 0 of the list
