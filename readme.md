@@ -41,17 +41,17 @@ Toby Dussek
 > packages (sinply a folder containing python files)
 
 ### Tuesday
-- how to access course recordings
+> how to access course recordings
 Course Website: https://learn.neueda.com/375369 (sign in with email)
 Website Registration Code: FJZVCP
 - if __name__ == '__main__'
-- to add libraries to python:
-  - python -m ensurepip
-  - python –m pip install requests (or any other library you need)
+> to add libraries to python:
+  > python -m ensurepip
+  > python –m pip install requests (or any other library you need)
   or 
-  - pip3 install requests
-- using requests (to access web API via HTTP)
-  - JSON is Javascript Object Notation (plain text encoding)
+  > pip3 install requests
+> using requests (to access web API via HTTP)
+  > JSON is Javascript Object Notation (plain text encoding)
 - venv, vitualenv and uv
 - range, generators
 - comprehensions

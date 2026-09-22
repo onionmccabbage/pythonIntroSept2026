@@ -1,5 +1,9 @@
 # we may access data from the internet using the requests library
 import requests
+import sys
+
+# Problem: if there is an additional sys.argv, 
+# use it as the parameter in our request
 
 def getData(param=''):
     '''Make a call to a remote API to retrieve JSON data'''
