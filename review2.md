@@ -7,13 +7,14 @@ This is a chance to explore Python
 - Alter these instructions to suit your thinking
 - Think about architecture (maybe use separate functions, modules and imports, although it can be one single file if you like)
 - Look online, talk to each other, ask me etc.
+
 There will be an opportunity to share your code at the end
 
 #### Details:
 
 - Write a new module which asks the user for a 'category' 
-(remember to use input() which always returns a string)
-Validate the user input as follows:
+- Remember to use input() which always returns a string
+- Validate the user input as follows:
 - The category may only be one of 'users', 'posts', 'todos' or 'photos'
 - Maybe use the 'in' operator to see if the value is in a tuple of permitted values
 - Also ask the user to enter an id
@@ -43,4 +44,4 @@ Import and use your 'cleanup' function to sanitize the user-provided data
 
 #### If Time
 
-Check to see if there are additional system arguments, and if so, use them for the category and id
+Check to see if there are additional system arguments, and if so, use them for the category and id (instead of asking the user)
