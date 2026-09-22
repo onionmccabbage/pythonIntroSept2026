@@ -26,31 +26,31 @@ Toby Dussek
     - e.g. __main__
   - anything with a single leading underscore is a convention
     - e.g. _hidden, def _wibble()
-- import relative folders
+> import relative folders
 > the 'in' operator for loops
 > boolean True and False
 > type and type conversion
-- validate user input 
+> validate user input 
 > the if statement for conditional logic
 > print formatting
 > validate input (remember - all input is string)
 > after lunch review exercise
 > dictionaries (indexed iterable collections)
 - import libraries and modules
-- functions
-- packages (sinply a folder containing python files)
+> functions
+> packages (sinply a folder containing python files)
 
 ### Tuesday
 - how to access course recordings
 - if __name__ == '__main__'
-- range, generators
-- comprehensions
 - to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
   or 
   - pip3 install requests
 - using requests (to access web API via HTTP)
+- range, generators
+- comprehensions
 - strings with triple quotes
 - exception handling (try-except etc.)
 - debug tools   
