@@ -52,13 +52,13 @@ Website Registration Code: FJZVCP
   > pip3 install requests
 > using requests (to access web API via HTTP)
   > JSON is Javascript Object Notation (plain text encoding)
-- venv, vitualenv and uv
+> venv, vitualenv and uv
 > range, generators
 > comprehensions
-- strings with triple quotes
-- exception handling (try-except etc.)
-- debug tools   
-- review exercise
+> strings with triple quotes
+> exception handling (try-except etc.)
+> debug tools   
+>review exercise
 - File input and output
   - work with very large data: buffers and chunks of data
 
