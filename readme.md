@@ -60,6 +60,7 @@ Website Registration Code: FJZVCP
 - debug tools   
 - review exercise
 - File input and output
+  - work with very large data: buffers and chunks of data
 
 ### Wednesday
 - in Python EVERTHING is an Object - every function, every class every module....

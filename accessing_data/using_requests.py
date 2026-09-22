@@ -1,17 +1,32 @@
 # we may access data from the internet using the requests library
 import requests
 
-def getData():
+def getData(param=''):
     '''Make a call to a remote API to retrieve JSON data'''
     api_url = "https://jsonplaceholder.typicode.com/photos"
     # use the requests library to access this url
-    response = requests.get(api_url) # this will return a response object
-    # we then grab the JSON data from the respinse object
-    photos = response.json() # this will return a list of dictionaries
-    return photos
+    # maybe we only need one part of the data. We pass parameters to the URL
+    # param = 19
+    # whenever we access remote data we should wrap in try-except
+    try:
+        response = requests.get(f'{api_url}/{param}') # this will return a response object
+        # we then grab the JSON data from the respinse object
+        # (we would know beforehand if we are working with JSON, xml etc)
+        photos = response.json() # this will return a list of dictionaries
+        return photos
+    except Exception as err:
+        return f'An error occurred {err}'
 
 if __name__ == "__main__":
-    result = getData()
-    print(result)
+    # we may iterate over a series of values to retireve each in turn
+    l = [12, 19, 2, 33]
+    for _ in l:
+        result = getData(_)
+        print(result) # we could combine these lines print( getData() )
+    
+
+    # we may see just part of the data
+    # print( result[0] ) # we only want member 0 of the list
+    # print( result[0]['title'] ) # we can access members of the dict 
 
 
