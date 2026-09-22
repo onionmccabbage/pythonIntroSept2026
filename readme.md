@@ -53,8 +53,8 @@ Website Registration Code: FJZVCP
 > using requests (to access web API via HTTP)
   > JSON is Javascript Object Notation (plain text encoding)
 - venv, vitualenv and uv
-- range, generators
-- comprehensions
+> range, generators
+> comprehensions
 - strings with triple quotes
 - exception handling (try-except etc.)
 - debug tools   
