@@ -12,7 +12,7 @@ f = [f_name, f_colour, num_f, height_f, hardy] # or a tuple or a dict...
 # no data type clarity 
 
 # here we write code together
-class Flower:
+class Flower(object): # the () are optional. By default all classes are objects
     '''This class takes colour and height arguments'''
     # the __init__ method is called once, when we make an instance
     def __init__(self, colour, height): # we may choose to pass properties to the instance 
