@@ -1,4 +1,4 @@
-## Python Review 3
+## Python Review 3: 1hr 20mins (until 2:55)
 
 - Alter these instructions to suit your thinking
 - Aim for good architecture (maybe use separate modules, remember `if __name__...`)
