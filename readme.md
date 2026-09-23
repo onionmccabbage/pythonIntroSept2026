@@ -13,7 +13,7 @@ Toby Dussek
 ### Monday
 > Welcome and intros
 > where to write code: modules (just a file)
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > maths operators and data types
 > print() and input()
 > indentation
@@ -70,7 +70,7 @@ Website Registration Code: FJZVCP
   -> how to make parts of a class 'private' to that class
 > name mangling (__) and `__slots__`
 > properties, methods, `__str__`
-- review exercise: build a class
+> review exercise: build a class
 - extending built in operators
 
 

@@ -24,3 +24,9 @@ dictionary_list = [
 ]
 
 print( dictionary_list[2]['title'] , type(dictionary_list))
+
+# we may access the docstring of ANY PYthon object
+
+print( dict.__doc__ )
+
+help(str)

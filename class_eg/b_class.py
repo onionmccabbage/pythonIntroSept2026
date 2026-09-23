@@ -51,11 +51,13 @@ if __name__ == '__main__':
     # we CANNOT directly acces the name-mangled property
     # print( o.__name ) # fail
     # we may mutate instance properties via the setter methods
-    p.name = 'Penny'
+    p.name = 'Penny' # p['name'] will not work!!!
     p.age  = 43
     p.birthday() # calls the class method
     print(o) # print will use the default for objects
     print(p.name, p.age) # calls the getter methods
 
     # docstring access
+    print( o.__doc__ )
+    print('_______________________________________________________')
     help(Person)

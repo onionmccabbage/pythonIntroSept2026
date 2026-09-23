@@ -42,4 +42,6 @@ if __name__ == "__main__":
     # print( result[0] ) # we only want member 0 of the list
     # print( result[0]['title'] ) # we can access members of the dict 
 
+    # we can always see the docstring
+    print( checkSysArgs.__doc__ )
 
