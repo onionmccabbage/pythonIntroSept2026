@@ -22,7 +22,7 @@ Toby Dussek
 > identifiers
   > use letters, numbers and underscore, don't start with a digit
   > by convention we use snake_case, camelCase, or PascalCase
-  - anything with two leading underscores is part of Python
+  - anything with two leading underscores is part of Python - called `dunder`
     - e.g. `__main__`
   - anything with a single leading underscore is a convention
     - e.g. `_hidden`, `def _wibble()`
@@ -71,6 +71,7 @@ Website Registration Code: FJZVCP
 - name mangling (__) and `__slots__`
 - properties, methods, `__str__`
 - review exercise
+- extending built in operators
 
 
 
