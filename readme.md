@@ -68,9 +68,9 @@ Website Registration Code: FJZVCP
 > global and local scope 
 > Objects and Classes (OOP)
   -> how to make parts of a class 'private' to that class
-- name mangling (__) and `__slots__`
-- properties, methods, `__str__`
-- review exercise
+> name mangling (__) and `__slots__`
+> properties, methods, `__str__`
+- review exercise: build a class
 - extending built in operators
 
 
