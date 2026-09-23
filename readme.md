@@ -23,9 +23,9 @@ Toby Dussek
   > use letters, numbers and underscore, don't start with a digit
   > by convention we use snake_case, camelCase, or PascalCase
   - anything with two leading underscores is part of Python
-    - e.g. __main__
+    - e.g. `__main__`
   - anything with a single leading underscore is a convention
-    - e.g. _hidden, def _wibble()
+    - e.g. `_hidden`, `def _wibble()`
 > import relative folders
 > the 'in' operator for loops
 > boolean True and False
@@ -59,8 +59,8 @@ Website Registration Code: FJZVCP
 > exception handling (try-except etc.)
 > debug tools   
 >review exercise
-- File input and output
-  - work with very large data: buffers and chunks of data
+> File input and output
+  > work with very large data: buffers and chunks of data
 
 ### Wednesday
 - in Python EVERTHING is an Object - every function, every class every module....
@@ -72,6 +72,8 @@ Website Registration Code: FJZVCP
 - properties, methods, __str__
 - review exercise
 - end of course feedback:
+
+
 
 
 - where to go from here:
