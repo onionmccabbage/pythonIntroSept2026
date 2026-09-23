@@ -56,3 +56,6 @@ if __name__ == '__main__':
     p.birthday() # calls the class method
     print(o) # print will use the default for objects
     print(p.name, p.age) # calls the getter methods
+
+    # docstring access
+    help(Person)
