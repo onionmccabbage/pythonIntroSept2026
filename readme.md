@@ -66,8 +66,8 @@ Website Registration Code: FJZVCP
 > in Python EVERTHING is an Object - every function, every class every module....
 > any input or output is necessarily slow: I/O bound
 > global and local scope 
-- Objects and Classes (OOP)
-  - how to make parts of a class 'private' to that class
+> Objects and Classes (OOP)
+  -> how to make parts of a class 'private' to that class
 - name mangling (__) and `__slots__`
 - properties, methods, `__str__`
 - review exercise

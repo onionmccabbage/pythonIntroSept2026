@@ -17,6 +17,22 @@ class Person: # by convention we use InitialCap names
             self.__name = new_name # here we set the name-mangled property
         else:
             raise TypeError('Name must be a non empty string')
+    # write get/set methods for the age
+    @property
+    def age(self): # every class function MUST start with 'self'
+        return self.__age # the getter function just returns the value
+    @age.setter
+    def age(self, new_age):
+        if type(new_age) in (int, float) and new_age >=0:
+            self.__age = new_age
+        else:
+            # we could set a default or raise an exception
+            raise TypeError('Age must be a positive integer')
+    # classes may have their own class methods (things the class can do)
+    def birthday(self):
+        '''when this method is called, the age property will be incremented by one'''
+        self.__age += 1
+
 
 if __name__ == '__main__':
     o = Person('Orla', 32) # defaults to admin=False
@@ -25,4 +41,9 @@ if __name__ == '__main__':
     p = Person('Peony', 42, True) # here we override the default admin
     print( o.name, o.age, o.admin )
     # we CANNOT directly acces the name-mangled property
-    print( o.__name ) # fail
+    # print( o.__name ) # fail
+    # we may mutate instance properties via the setter methods
+    p.name = 'Penny'
+    p.age  = 43
+    p.birthday() # calls the class method
+    print(p.name, p.age) # calls the getter methods
