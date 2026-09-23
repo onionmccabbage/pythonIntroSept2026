@@ -20,5 +20,9 @@ class Person: # by convention we use InitialCap names
 
 if __name__ == '__main__':
     o = Person('Orla', 32) # defaults to admin=False
+    o.name = 'Betty' # this will change the name
+    # o.name = False # this will raise an exception
     p = Person('Peony', 42, True) # here we override the default admin
     print( o.name, o.age, o.admin )
+    # we CANNOT directly acces the name-mangled property
+    print( o.__name ) # fail

@@ -30,9 +30,10 @@ class Flower(object): # the () are optional. By default all classes are objects
 if __name__ == '__main__':
     # here we create instances of our class
     fuschia     = Flower('red', 120) 
+    fuschia.colour = False # we are able to mutate to any value (no validation)
     honeysuckle = Flower('yellow', 300)
-    example     = Flower(False, 'tall')
+    # example     = Flower(False, 'tall')
     print(fuschia.colour) # we may use dot notation to access properties
     print(honeysuckle.height)
-    print(example.height)
+    # print(example.height)
     
