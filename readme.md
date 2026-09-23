@@ -63,21 +63,25 @@ Website Registration Code: FJZVCP
   > work with very large data: buffers and chunks of data
 
 ### Wednesday
-- in Python EVERTHING is an Object - every function, every class every module....
-- any input or output is necessarily slow: I/O bound
-- global and local scope 
+> in Python EVERTHING is an Object - every function, every class every module....
+> any input or output is necessarily slow: I/O bound
+> global and local scope 
 - Objects and Classes (OOP)
   - how to make parts of a class 'private' to that class
-- name mangling (__) and __slots__
-- properties, methods, __str__
+- name mangling (__) and `__slots__`
+- properties, methods, `__str__`
 - review exercise
-- end of course feedback:
 
 
 
 
-- where to go from here:
-  https://learnpython.org/
+- end of course feedback: (careful this has spaces in)
+  https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LZU1500463&OID=521846&Title=Programming in Python&Owner=Nitin Tiwari
 
+
+
+
+#### where to go from here:
+- https://learnpython.org/
 - Python official site https://python.org
 - PEP8 style guide https://pep8.org/
